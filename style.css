@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+body{
+    left: 0;
+    right: 0;
+    margin-top: 50px;
+    font-family: 'Mukta', sans-serif;
+}
+h1{
+    font-family: 'Orbitron', sans-serif;
+    margin: auto;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.content{
+    margin-top:50px;
+}
+input{
+    font-family: 'Orbitron', sans-serif;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 20px;
+    border: 2px solid black;
+    display: flex;
+    margin: auto;
+    position: relative;
+}
+#add{
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 2px;
+    margin: auto;
+    display: flex;
+    position: relative;
+    padding: 15px 25px;
+    border-radius: 15px;
+    color: white;
+    background-color: black;
+}
+.list{
+    text-align: center;
+    margin: auto;
+}
+li{
+    left: 0;
+    margin-right: 20px;
+    list-style: none;
+    border-radius: 5px;
+    padding: 20px;
+    min-height: 25px;
+    
+}
+li:nth-child(2n){
+    background-color: #d8d8d8;
+}
+#del{
+    position: relative;
+    float: right;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: white;
+    background-color: rgb(183, 182, 182);
+}
+footer{
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-family: 'Caveat', cursive;
+    background-color: white;
+    font-size: 20px;
+    text-align: center;
+    position: fixed;
+    margin: auto;
+    width: 100%;
+    
+}
+footer p{
+
+    font-weight: 600;
+    letter-spacing: 1px;
+}
